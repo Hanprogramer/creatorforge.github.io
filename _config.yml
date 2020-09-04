@@ -1,39 +1,40 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: Creator's Forge
+title: Creator's Forge | By Hanprogramer
+description: A website for minecraft content creators to learn more about tools, scripts and any other useful resources.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
+  - minecraft
+  - addon
+  - bedrock edition
+  - hanprogramer
+email: han.programer@gmail.com
 disqus_username: disqus_username
-show_hero: true
+show_hero: false
 menu:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
+  - title: Tools
+    url: /category/tools/
+  - title: Addons
+    url: /category/addons/
+  - title: Teams
+    url: /category/teams/
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
+github_username: hanprogramer
 facebook_username: facebook_username
-twitter_username: twitter_username
+twitter_username: hanprogramer123
 instagram_username: instagram_username
 linkedin_username: linkedin_username
 medium_username: medium_username
 
 
 # Posts Settings
-show_time_bar: true
+show_time_bar: false
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
@@ -56,7 +57,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
@@ -100,4 +101,6 @@ exclude: [
 ]
 
 # Theme
-version: v3.1.0
+version: v3.1.2
+
+main-subtitle: by Hanprogramer
